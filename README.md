@@ -27,8 +27,13 @@ git commit -m "Innitial commit"
 If you have the GitHub CLI (gh) installed:
 
 ```bash
-gh repo create my-repo-name --private --source=. --remote=origin
+gh repo create my-repo-name --private --source=. --remote=origin 
 ```
+or
+```bash
+gh repo create my-repo-name --public --source=. --remote=origin 
+```
+
 
 
 ### 5. Push your local commits
